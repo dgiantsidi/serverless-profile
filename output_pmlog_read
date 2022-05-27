@@ -1,0 +1,19 @@
+log_read_variable_chunk_sizes: log_read [8] [group: pmemlog]
+total-avg[sec];ops-per-second[1/sec];total-max[sec];total-min[sec];total-median[sec];total-std-dev[sec];latency-avg[nsec];latency-min[nsec];latency-max[nsec];latency-std-dev[nsec];latency-pctl-50.0%[nsec];latency-pctl-99.0%[nsec];latency-pctl-99.9%[nsec];threads;ops-per-thread;data-size;seed;repeats;thread-affinity;main-affinity;min-exe-time;random;seed;file-io;no-warmup;min-size
+/mnt/pmem0/testfile0.log
+0.464022;2155068.352788;0.464022;0.464022;0.464022;0.000000;479;428;5019;77.200930;472;942;1160;1;1000000;64;0;1;false;-1;0;false;1;false;false;1
+/mnt/pmem0/testfile0.log
+0.471272;2121916.035350;0.471272;0.471272;0.471272;0.000000;486;428;18753;110.600370;469;1045;1314;1;1000000;128;0;1;false;-1;0;false;1;false;false;1
+/mnt/pmem0/testfile0.log
+0.549572;1819599.322446;0.549572;0.549572;0.549572;0.000000;564;522;20961;54.050491;561;600;670;1;1000000;256;0;1;false;-1;0;false;1;false;false;1
+/mnt/pmem0/testfile0.log
+0.582906;1715541.406289;0.582906;0.582906;0.582906;0.000000;597;556;20953;56.824071;595;621;706;1;1000000;512;0;1;false;-1;0;false;1;false;false;1
+/mnt/pmem0/testfile0.log
+0.601087;1663653.645731;0.601087;0.601087;0.601087;0.000000;616;571;4380;48.502211;614;648;738;1;1000000;1024;0;1;false;-1;0;false;1;false;false;1
+/mnt/pmem0/testfile0.log
+0.665806;1501938.227251;0.665806;0.665806;0.665806;0.000000;680;620;21439;63.873414;674;771;1016;1;1000000;2048;0;1;false;-1;0;false;1;false;false;1
+/mnt/pmem0/testfile0.log
+1.351428;739958.214101;1.351428;1.351428;1.351428;0.000000;1366;1242;16588;94.206486;1353;1591;2794;1;1000000;4096;0;1;false;-1;0;false;1;false;false;1
+/mnt/pmem0/testfile0.log
+1.434017;697341.714764;1.434017;1.434017;1.434017;0.000000;1449;1302;20932;99.399429;1439;1649;3113;1;1000000;8192;0;1;false;-1;0;false;1;false;false;1
+

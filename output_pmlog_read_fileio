@@ -1,0 +1,19 @@
+log_read_variable_chunk_sizes: log_read [8] [group: pmemlog]
+total-avg[sec];ops-per-second[1/sec];total-max[sec];total-min[sec];total-median[sec];total-std-dev[sec];latency-avg[nsec];latency-min[nsec];latency-max[nsec];latency-std-dev[nsec];latency-pctl-50.0%[nsec];latency-pctl-99.0%[nsec];latency-pctl-99.9%[nsec];threads;ops-per-thread;data-size;seed;repeats;thread-affinity;main-affinity;min-exe-time;random;seed;file-io;no-warmup;min-size
+/scratch/dimitra/testfile0.log
+0.801534;12476.069464;0.801534;0.801534;0.801534;0.000000;80168;70627;407283;21511.794661;74994;175752;325184;1;10000;64;0;1;false;-1;0;false;1;true;false;1
+/scratch/dimitra/testfile0.log
+0.806510;12399.103873;0.806510;0.806510;0.806510;0.000000;80665;73725;277578;14595.763607;76490;149634;215706;1;10000;128;0;1;false;-1;0;false;1;true;false;1
+/scratch/dimitra/testfile0.log
+0.807040;12390.960738;0.807040;0.807040;0.807040;0.000000;80718;73832;212039;12097.627057;76909;136603;179146;1;10000;256;0;1;false;-1;0;false;1;true;false;1
+/scratch/dimitra/testfile0.log
+0.805792;12410.154022;0.805792;0.805792;0.805792;0.000000;80594;73474;202361;12128.852080;76800;135613;176240;1;10000;512;0;1;false;-1;0;false;1;true;false;1
+/scratch/dimitra/testfile0.log
+0.849590;11770.378402;0.849590;0.849590;0.849590;0.000000;84974;78247;204293;11180.114827;81557;138702;170495;1;10000;1024;0;1;false;-1;0;false;1;true;false;1
+/scratch/dimitra/testfile0.log
+0.848513;11785.329196;0.848513;0.848513;0.848513;0.000000;84866;78126;260285;11808.532895;81322;141131;179049;1;10000;2048;0;1;false;-1;0;false;1;true;false;1
+/scratch/dimitra/testfile0.log
+1.014960;9852.603058;1.014960;1.014960;1.014960;0.000000;101511;87675;23449352;234372.775788;92839;166160;224151;1;10000;4096;0;1;false;-1;0;false;1;true;false;1
+/scratch/dimitra/testfile0.log
+1.115337;8965.898321;1.115337;1.115337;1.115337;0.000000;111548;98818;282571;17296.278525;104109;179975;224751;1;10000;8192;0;1;false;-1;0;false;1;true;false;1
+
