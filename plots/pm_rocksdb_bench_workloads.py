@@ -12,7 +12,7 @@ rocksdb = [784779, 1029009, 1470882, 2257547, 2701705, 2740057, 2924731]
 pmlog = [720000, 996000, 1424172, 2470572, 3486660, 3508896, 3696720]
 
 
-workloads = ['0', '250', '500', '750', '900', '950', '990']
+workloads = ['0', '25', '50', '75', '90', '95', '99']
 
 plt.plot(rocksdb_sync, marker='o', linestyle='--', color='b', label='rocksdb', markersize=20)
 plt.plot(rocksdb, marker='*', linestyle='--', color='r', label='rocksdb w/o persistency', markersize=20)
