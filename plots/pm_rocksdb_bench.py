@@ -21,10 +21,10 @@ plt.plot(pmlog, marker='s', linestyle='--', color='green', label='PMLog', marker
 ax = plt.gca()
 plt.yscale("log")
 plt.xticks(list(range(0, 8)))
-ax.set_xticklabels(value_sizes)
+ax.set_xticklabels(record_sizes)
 
-plt.ylabel("Throughput (Ops/sec)$")
-plt.xlabel("block sz (B)")
+plt.ylabel("Throughput (Ops/sec)")
+plt.xlabel("record sz (B)")
 plt.tight_layout()
 #plt.legend(loc='best')
 #plt.legend(ncol = 1, loc='right', bbox_to_anchor=(0.5, 1.15), mode="expand")
