@@ -20,7 +20,7 @@ plt.plot(pmlog, marker='s', linestyle='--', color='green', label='PMLog', marker
 
 ax = plt.gca()
 #plt.yscale("log")
-plt.xticks(list(range(0, 8)))
+plt.xticks(list(range(0, 7)))
 ax.set_xticklabels(threads_nb)
 
 plt.ylabel("Throughput (Ops/sec)")
