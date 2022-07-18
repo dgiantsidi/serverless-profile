@@ -14,8 +14,8 @@ pmlog = [178454, 334535, 611917, 883374, 1088547, 1265343, 1396754]
 
 threads_nb = ['1', '2', '4', '6', '8', '10', '12']
 
-plt.plot(rocksdb_sync, marker='o', linestyle='--', color='b', label='rocksdb (sync)', markersize=20)
-plt.plot(rocksdb, marker='*', linestyle='--', color='r', label='rocksdb', markersize=20)
+plt.plot(rocksdb_sync, marker='o', linestyle='--', color='b', label='rocksdb', markersize=20)
+plt.plot(rocksdb, marker='*', linestyle='--', color='r', label='rocksdb w/o persistency', markersize=20)
 plt.plot(pmlog, marker='s', linestyle='--', color='green', label='PMLog', markersize=20)
 
 ax = plt.gca()
