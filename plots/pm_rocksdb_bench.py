@@ -14,8 +14,8 @@ pmlog = [1414016, 1413729, 1422686, 1419716, 1462096, 1409430, 1427061, 1436916]
 
 record_sizes = ['64', '128', '256', '512', '1024', '2048', '4096', '8192']
 
-plt.plot(rocksdb_sync, marker='o', linestyle='--', color='b', label='rocksdb (sync)', markersize=20)
-plt.plot(rocksdb, marker='*', linestyle='--', color='r', label='rocksdb', markersize=20)
+plt.plot(rocksdb_sync, marker='o', linestyle='--', color='b', label='rocksdb', markersize=20)
+plt.plot(rocksdb, marker='*', linestyle='--', color='r', label='rocksdb w/o persistency', markersize=20)
 plt.plot(pmlog, marker='s', linestyle='--', color='green', label='PMLog', markersize=20)
 
 ax = plt.gca()
