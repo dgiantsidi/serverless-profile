@@ -18,7 +18,7 @@ plt.plot(boki, marker='*', linestyle='--', color='r', label='Boki', markersize=2
 
 ax = plt.gca()
 #plt.yscale("log")
-plt.xticks(list(range(0, 7)))
+plt.xticks(list(range(0, 3)))
 ax.set_xticklabels(workloads)
 
 plt.ylabel("Latency (usec)")
